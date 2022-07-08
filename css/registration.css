@@ -1,0 +1,117 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url("../photo/01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.full {
+	width: 70%;
+	margin: 50px auto 50px auto;
+	font-weight: bold;
+}
+h1 {
+	background-color: #000080;
+	color: white;
+	margin: 70px auto 0px auto;
+	width: 80%;
+	height: 60px;
+	line-height: 55px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+form {
+	background-color: white;
+	width: 80%;
+	margin: 0px auto 70px auto;
+	Box-sizing: border-box;
+	padding: 50px;
+	padding-bottom: 100px;
+	border-radius: 0px 0px 5px 5px;
+	
+}
+.name {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.fname {
+	flex-basis: 45%;
+}
+.lname {
+	flex-basis: 45%;
+}
+.group {
+	display: flex;
+	justify-content: space-between;
+}
+.left {
+	flex-basis: 45%;
+}
+.right {
+	flex-basis: 45%;
+}
+input {
+	width: 100%;
+	margin-bottom:20px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+	
+}
+.radio input {
+	margin-bottom: 30px;
+	width:auto;
+	
+}
+.check input {
+	width:auto;
+	display: inline;
+	margin-right: 6px;
+}
+.check label {
+	width:auto;
+	display: inline;
+	margin:0px;
+}
+.gm {
+	display: inline;
+	margin-right: 6px;
+	
+}
+.gf {
+	display: inline;
+	margin-right: 6px;
+	
+}
+.go {
+	display: inline;
+	margin-right: 6px;
+}
+.g {
+	display: block;
+	margin-bottom: 6px;
+}
+label {
+	display: block;
+	margin-bottom: 6px;
+	
+}
+button {
+	background: #1c00b5;
+	width: 100px;
+	border: none;
+	outline: none;
+	color: #fff;
+	height: 35px;
+	border-radius: 30px;
+	margin-top: 20px;
+	box-shadow: 0px 5px 15px 0px blue;
+	float: right;
+}
+

@@ -1,0 +1,147 @@
+* {
+	margin:0px;
+	padding: 0px;
+}
+body {
+	background-image: url("../photo/01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.full {
+	margin: 50px auto 50px auto;
+}
+.start h1 {
+	font-weight: bold;
+	background-color: #000080;
+	margin-bottom: 0px;
+	height: 60px;
+	line-height: 55px;
+	color: white;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.about {
+	display: flex;
+}
+.about1 {
+	font-weight: bold;
+	text-align: justify;
+	background-color: #fff;
+	flex-basis: 60%;
+	padding: 40px 60px;
+	border-radius: 5px 0px 0px 5px;
+}
+.about2 {
+	color: white;
+	flex-basis: 40%;
+	background-color: #000080;
+	padding: 40px;
+	border-radius: 0px 5px 5px 0px;
+}
+.about2 img {
+	width: 100%;
+	border-radius: 5px;
+}
+.about2 h3 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.lib {
+	display: flex;
+	
+}
+.lib1 {
+	font-weight: bold;
+	color: white;
+	flex-basis: 40%;
+	background-color: #000080;
+	padding: 40px;
+	border-radius: 5px 0px 0px 5px;
+}
+.lib2 {
+	font-weight: bold;
+	text-align: justify;
+	background-color: #fff;
+	flex-basis: 60%;
+	padding: 40px 60px;
+	border-radius: 0px 5px 5px 0px;
+}
+.lib1 img {
+	width: 35%;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10px;
+}
+.lib1 h3 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.lib1 p {
+	text-align: center;
+}
+.lib1 p a {
+	text-decoration: none;
+	color: white;
+}
+.work {
+	display: flex;
+}
+.work1 {
+	font-weight: bold;
+	background-color: #fff;
+	flex-basis: 60%;
+	padding: 40px 60px;
+	border-radius: 5px 0px 0px 5px;
+}
+.work2 {
+	font-weight: bold;
+	color: white;
+	flex-basis: 40%;
+	background-color: #000080;
+	padding: 40px;
+	border-radius: 0px 5px 5px 0px;
+}
+.work2 img {
+	width: 100%;
+	border-radius: 5px;
+}
+.work2 h3 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+table {
+	width : 100%;	
+}
+tr td {
+	width: 50%;
+	padding: 10px 10px 10px 30px;
+	border: 1px solid #1c00b5;
+}
+
+.loc {
+	display: flex;
+}
+.loc1 {
+	font-weight: bold;
+	color: white;
+	flex-basis: 40%;
+	background-color: #000080;
+	padding: 40px;
+	border-radius: 5px 0px 0px 5px;
+}
+.loc2 {
+	background-color: #fff;
+	flex-basis: 60%;
+	padding: 40px 60px;
+	border-radius: 0px 5px 5px 0px;
+}
+.loc1 img {
+	width: 100%;
+	border-radius: 5px;
+}
+.loc1 h3 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}

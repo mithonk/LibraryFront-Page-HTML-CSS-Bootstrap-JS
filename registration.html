@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>registration</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/registration.css">
+		<link rel="stylesheet" href="css/common.css">
+	</head>
+	<body>
+	
+	
+	
+	<header id="headid">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<img src="photo/logo.png" alt="logo" width="20%" loading="lazy" class="d-inline-block align-top">
+			
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false"aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			
+			
+				<div class="collapse navbar-collapse" id="myNavBar">
+					<ul class="navbar-nav">
+						<li class="nav-item active"><a class="nav-link" href="index.html"><b>HOME</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="about us.html"><b>ABOUT US</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="e-services.html"><b>E-SERVICES</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="contact us.html"><b>CONTACT US</b></a></li>
+						<li class="nav-item hidd"><a class="nav-link" href="#"><b>PROFILE</b></a></li>
+						<li class="nav-item hidd lo"><a class="nav-link" href="index.html"><b>LOG OUT</b></a></li>
+					</ul>
+
+			
+			</div>
+			</nav>
+	</header>
+	
+	
+	
+	
+	<div class="full">
+		<h1>Registration</h1>
+	
+		<form>
+			<div class="name">
+				<div class="fname">
+					<label for="fname">First Name</label>
+					<input type="text" name="fname" id="fname" placeholder="First Name" required>
+				</div>
+				<div class="lname">
+					<label for="lname">Last Name</label>
+					<input type="text" name="lname" id="lname" placeholder="Last Name" required>
+				</div>
+			</div>
+					<label for="fathername">Father Name</label>
+					<input type="text" name="fathername" id="fathername" placeholder="Father Name">
+					
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="mitholibrary@gmail.com" required>
+					
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" placeholder="*******" required>
+					
+					<label for="cpassword">Confirm Password</label>
+					<input type="password" name="cpassword" id="cpassword" placeholder="*******" required>
+					
+				
+			<div class="group">
+				<div class="left">
+				<div class="radio">
+					<label for="gender" class="g">Gender</label>
+					<input type="radio" name="gender" id="male">
+					<label for="gender" class="gm">Male</label>
+					<input type="radio" name="gender" id="female">
+					<label for="gender" class="gf">Female</label>
+					<input type="radio" name="gender" id="other">
+					<label for="gender" class="go">Other</label>
+				</div>	
+					<label for="nicno">NIC No</label>
+					<input type="text" name="nicno" id="nicno" placeholder="971373016V" required>
+					
+					<label for="hometown">Home Town</label>
+					<input type="text" name="hometown" id="hometown" placeholder="hometown" required>
+				</div>
+				<div class="right">
+	
+					<label for="dob">Date Of Birth</label>
+					<input type="date" name="dob" id="dob">
+					
+					<label for="tel">Mobile No</label>
+					<input type="tel" name="tel" id="tel" placeholder="+940779597849" required>
+					
+					<label for="gs">GS Division</label>
+					<input type="text" name="gs" id="gs" placeholder="K/204" required>
+					
+				</div>
+			</div>	
+					<label for="address">Address</label>
+					<input type="text" name="address" id="address" placeholder="Enter Full Address" required>
+				<div class="check">
+					<input type="checkbox" name="checkbox" id="checkbox" required>
+					<label for="checkbox">I do accept the <strong>terms and conditions</strong> your Library</label>	
+				</div>
+			<button type="submit">REGISTER</button>
+		</form>
+		
+	</div>	
+		
+		
+		
+	<footer>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container" id="foot">
+				<p>©2021 &ensp; | &ensp; Mitho Library</p>
+			</div>
+		</div>
+	</footer>
+		
+		
+		
+		
+	<!--bootstrap js-->
+		<script src="js/common.js"></script>
+		<script src="bootstrap/jquary.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		
+		
+	</body>
+</html>

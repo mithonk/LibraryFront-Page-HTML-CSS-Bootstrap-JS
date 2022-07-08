@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: url("../photo/01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+form {
+	padding: 50px;
+	margin: 80px auto ;
+	float: center;
+}
+.form-group {
+	margin-bottom: 10px;
+	
+}
+#bts {
+	width: 100%;
+	background-color: #000080 ;
+	color: white;
+}
+#fb {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+#btc {
+	background-color: #42b72a;
+	color: white;
+}
+.btc {
+	display: block;
+	text-align: center;
+}
+.kk {
+	 box-shadow: 8px 8px 5px 5px #ceb8b8;
+}
+

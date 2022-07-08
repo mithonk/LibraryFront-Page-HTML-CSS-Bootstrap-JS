@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: url("../photo/01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+#headid {
+	z-index: 1;
+}
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar {
+	background-color: #000080;
+	padding: 12px;
+}
+.navbar-nav {
+	margin-left: auto;
+}
+.nav-item {
+	padding-right: 7px;
+}
+#foot {
+	vertical-align: center;
+	height: 10px;
+	display: block;
+	background-color: #000080;
+	color: white;
+	text-align: center;
+	line-height: 10px;
+}
+.hidd {
+	display: none;
+}

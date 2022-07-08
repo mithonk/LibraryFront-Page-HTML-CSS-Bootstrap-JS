@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("../photo/01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.full {
+	margin: 50px auto 50px auto;
+	font-weight: bold;
+}
+#himg{
+	width:20%;
+	height: auto;
+}
+img {
+	width: 10px;
+	height: 220px;
+}
+.card {
+	margin-bottom: 10px;
+	border: none;
+	box-shadow: 8px 8px 5px 5px #ceb8b8;
+}
+.card-body {
+	height: 60px;
+}
+.row {
+	margin-bottom: 50px;
+}
+.mab {
+	font-weight: bold;
+	width: 33%;
+	box-shadow: 5px 5px 5px 5px #c7c7df;
+	background-color: #000080;
+	border-radius: 5px;
+}
+
+
